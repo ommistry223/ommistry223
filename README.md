@@ -10,7 +10,7 @@
       </a>
       <a href="https://github.com/ommistry223?tab=followers">
             <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/ommistry223?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
-      </a>
+      </a> 
       <a href="https://github.com/ommistry223/?tab=Simple-View-Counter">
             <img alt="views" title="GitHub profile views" src="https://komarev.com/ghpvc/?username=ommistry223&style=for-the-badge"/>
       </a>
