@@ -1,6 +1,6 @@
 <div align="center">
       
-<h1>👨‍💻 About Me 👨‍💻</h1>
+<h1>👨‍💻 About Me 👨‍💻</h1> 
 
 <p>
       I'm a Web Developer and Tech Enthusiast passionate about building beautiful, functional, and user-friendly web applications. Whether it's front-end magic, back-end logic, or diving into the latest tech trends, I'm always excited to create something impactful.
