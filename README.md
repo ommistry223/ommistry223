@@ -46,9 +46,7 @@
 
 ---
 
-## ⚡ Recent Activities:
 
-![Om's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ommistry223&theme=radical)
 
 ---
 
