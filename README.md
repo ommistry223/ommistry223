@@ -1,6 +1,67 @@
 <div align="center">
       
-<h1>👨‍💻 About Me 👨‍💻</h1> 
+<h1 align="center">Hi 👋, I'm Om</h1>
+<h3 align="center">I love Web Development and AR/VR Technologies</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?lines=Passionate+Web+Developer;Exploring+AR+%26+VR+Worlds;Always+Learning+and+Growing;Let's+Connect!&center=true&width=500&height=45">
+</p>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="300">
+</p>
+
+---
+
+- 🔭 I’m currently working on **Web Development Projects**
+- 🌱 I’m currently learning **Augmented Reality (AR) and Virtual Reality (VR)**
+- 💬 Ask me about **Web Tech, JavaScript, AR/VR**
+- 📫 How to reach me: **ommistry5559@gmail.com**
+
+---
+
+## 🌐 Connect with me:
+
+[![Gmail Badge](https://img.shields.io/badge/-ommistry5559@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:ommistry5559@gmail.com)
+
+---
+
+## 🛠️ Languages and Tools:
+
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+
+---
+
+## 📊 GitHub Stats:
+
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=ommistry223&show_icons=true&theme=radical" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ommistry223&layout=compact&theme=radical" />
+</p>
+
+---
+
+## ⚡ Recent Activities:
+
+![Om's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ommistry223&theme=radical)
+
+---
+
+## 🏆 GitHub Profile Trophy:
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ommistry223&theme=radical&row=1&no-frame=true" />
+</p>
+
+---
+
+![](https://komarev.com/ghpvc/?username=ommistry223&color=brightgreen&label=PROFILE+VIEWS)
+
 
 <p>
       I'm a Web Developer and Tech Enthusiast passionate about building beautiful, functional, and user-friendly web applications. Whether it's front-end magic, back-end logic, or diving into the latest tech trends, I'm always excited to create something impactful.
