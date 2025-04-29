@@ -1,7 +1,7 @@
 <div align="center">
 
 # 👋 Hi, I'm Om
-### 🚀 Full-Stack Web Developer | 🌐 AR/VR Explorer | 📚 Lifelong Learner
+### 🚀 Web Development Student | 🌐 AR/VR Explorer | 📚 Lifelong Learner
 
 <img src="https://readme-typing-svg.herokuapp.com?lines=Full-Stack+Developer;Exploring+AR%2FVR+Technologies;Building+Creative+Projects;Let’s+Connect!&center=true&width=500&height=45" />
 
