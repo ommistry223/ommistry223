@@ -5,7 +5,7 @@
 # Om Mistry
 ### Web Development Student | AR/VR Technology Enthusiast
 
-<a href="https://github.com/ommistry223"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=6366F1&center=true&vCenter=true&random=false&width=500&height=70&lines=2nd+Year+CS+Student;AR%2FVR+Enthusiast;Learning+Web+Development;Three.js+Explorer;Building+Creative+Projects" alt="Typing SVG" /></a>
+<a href="https://github.com/ommistry223"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=6366F1&center=true&vCenter=true&random=false&width=500&height=70&lines=1st+Year+CE+Student;AR%2FVR+Enthusiast;Learning+Web+Development;Three.js+Explorer;Building+Creative+Projects" alt="Typing SVG" /></a>
 
 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500" alt="Coding Animation" />
 
