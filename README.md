@@ -1,11 +1,9 @@
-
-
 <div align="center">
 
 # Om Mistry
 ### Web Development Student | AR/VR Technology Enthusiast
 
-<a href="https://github.com/ommistry223"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=6366F1&center=true&vCenter=true&random=false&width=500&height=70&lines=1st+Year+CE+Student;AR%2FVR+Enthusiast;Learning+Web+Development;Three.js+Explorer;Building+Creative+Projects" alt="Typing SVG" /></a>
+<a href="https://github.com/ommistry223"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=6366F1&center=true&vCenter=true&random=false&width=600&height=70&lines=2nd+Year+Computer+Science+Student;AR%2FVR+Technology+Enthusiast;Learning+Web+Development;Three.js+Explorer;Building+Creative+Projects;React+Developer" alt="Typing SVG" /></a>
 
 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500" alt="Coding Animation" />
 
@@ -24,14 +22,14 @@
 
 ## 👨‍💻 About Me
 
-<img align="right" width="300" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Profile Image" />
+<img align="right" width="300" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coding GIF" />
 
-- 🎓 Currently a 2nd-year Computer Science student
-- 🚀 Learning web development and immersive technologies
+- 🎓 Currently a **2nd-year Computer Science student**
+- 🚀 Learning **web development** and **immersive technologies**
 - 🔭 Exploring **WebXR**, **Three.js** and **React** in my free time
-- 💡 Passionate about creating interactive and intuitive interfaces
+- 💡 Passionate about creating **interactive and intuitive experiences**
 - 🌱 Always eager to learn new programming concepts and techniques
-- 📬 Reach me at: [ommistry5559@gmail.com](mailto:ommistry5559@gmail.com)
+- 📬 Reach me at: **ommistry5559@gmail.com**
 
 <br clear="right"/>
 
@@ -41,16 +39,17 @@
 
 <div align="center">
 
-### 🌐 Frontend
+### 🌐 Frontend Development
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-### 🧰 Languages
+### 🧰 Programming Languages
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ### 🔧 Tools & Frameworks
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -66,23 +65,27 @@
 
 <div align="center">
 
-| Project | Description | Technologies |
-|---------|-------------|-------------|
-| <img src="https://media.giphy.com/media/3oEjI8vagntG7EDxgQ/giphy.gif" width="60" height="60" /><br>[WebXR Gallery](https://github.com/ommistry223/WebXR-Gallery) | A virtual reality art gallery experience (work in progress) | ![Three.js](https://img.shields.io/badge/Three.js-black?logo=three.js) ![WebXR](https://img.shields.io/badge/WebXR-FF5A00) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E) |
-| <img src="https://media.giphy.com/media/l3vRfNA1p0rvhMSvS/giphy.gif" width="60" height="60" /><br>[Portfolio Website](https://github.com/ommistry223/portfolio) | My personal portfolio website (under development) | ![React](https://img.shields.io/badge/React-61DAFB) ![CSS](https://img.shields.io/badge/CSS-1572B6) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E) |
-| <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="60" height="60" /><br>[JS Brain Games](https://github.com/ommistry223/JS-Games) | A collection of browser-based games for my coursework | ![HTML](https://img.shields.io/badge/HTML-E34F26) ![CSS](https://img.shields.io/badge/CSS-1572B6) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E) |
+| Project | Description | Technologies | Status |
+|---------|-------------|-------------|--------|
+| 🎨 **[WebXR Gallery](https://github.com/ommistry223/WebXR-Gallery)** | Virtual reality art gallery experience with immersive 3D environments | ![Three.js](https://img.shields.io/badge/Three.js-black?style=flat&logo=three.js) ![WebXR](https://img.shields.io/badge/WebXR-FF5A00?style=flat) | 🔄 In Progress |
+| 🌐 **[Portfolio Website](https://github.com/ommistry223/portfolio)** | Personal portfolio showcasing projects and skills | ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3) | 🚧 In Development |
+| 🎮 **[JS Brain Games](https://github.com/ommistry223/JS-Games)** | Collection of browser-based puzzle and logic games | ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5) ![JavaScript](https://img.shields.io/badge/JS-F7DF1E?style=flat&logo=javascript) | ✅ Completed |
 
 </div>
 
-<p align="center"><a href="https://github.com/ommistry223?tab=repositories" target="_blank"><img alt="All Repositories" title="All Repositories" src="https://img.shields.io/badge/All%20Repos-4F46E5?style=for-the-badge&logo=koding&logoColor=white"/></a></p>
+<p align="center">
+<a href="https://github.com/ommistry223?tab=repositories" target="_blank">
+<img src="https://img.shields.io/badge/All%20Repos-4F46E5?style=for-the-badge&logo=koding&logoColor=white"/>
+</a>
+</p>
 
 ---
 
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ommistry223&show_icons=true&count_private=true&hide_border=true&title_color=6366f1&icon_color=6366f1&text_color=c9d1d9&bg_color=0d1117" alt="Om Mistry's GitHub Stats" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ommistry223&layout=compact&hide_border=true&title_color=6366f1&text_color=c9d1d9&bg_color=0d1117" width="41%" alt="Om Mistry's Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ommistry223&show_icons=true&count_private=true&hide_border=true&title_color=6366f1&icon_color=6366f1&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ommistry223&layout=compact&hide_border=true&title_color=6366f1&text_color=c9d1d9&bg_color=0d1117" width="41%" alt="Top Languages" />
 </div>
 
 <div align="center">
@@ -90,7 +93,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ommistry223&theme=discord&no-frame=true&row=1&column=7&margin-w=15" width="90%" alt="Trophy" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ommistry223&theme=discord&no-frame=true&row=1&column=7&margin-w=15" width="90%" alt="Trophies" />
 </div>
 
 ---
@@ -102,13 +105,14 @@
 </details>
 
 <details>
-  <summary><b>📝 Learning Progress</b></summary>
+  <summary><b>📚 Currently Learning</b></summary>
   <br/>
   
-  - 📚 Currently learning: **React.js fundamentals**
-  - 🧪 Experimenting with: **Basic WebXR demos**
-  - 📖 Studying: **Data Structures & Algorithms**
-  - 🎯 Next on my list: **Node.js backend development**
+  - 📖 **React.js Advanced Concepts** - Hooks, Context, Performance
+  - 🧪 **WebXR Development** - Building immersive web experiences  
+  - 🎮 **Three.js 3D Graphics** - 3D modeling and animations
+  - 📊 **Data Structures & Algorithms** - Computer Science fundamentals
+  - 🔧 **Node.js Backend** - Server-side JavaScript development
 </details>
 
 ---
@@ -116,7 +120,7 @@
 ## 💭 Let's Connect & Collaborate
 
 <p align="center">
-  <i>I'm always open to learning opportunities and collaboration on student projects!</i>
+  <i>🤝 Always open to learning opportunities and collaboration on student projects!</i>
 </p>
 
 <div align="center">
@@ -132,6 +136,8 @@
 </div>
 
 <div align="center">
-  <p>💬 <i>"The only way to learn a new programming language is by writing programs in it."</i></p>
+  <br/>
+  <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> 
+  <br/>
+  <p><i>"The only way to learn a new programming language is by writing programs in it."</i></p>
 </div>
-
