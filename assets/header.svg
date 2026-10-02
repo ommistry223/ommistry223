@@ -33,21 +33,21 @@
 
   <style>
     .font-mono {
-      font-family: -apple-system, BlinkMacSystemFont, "JetBrains Mono", "Fira Code", "SF Mono", Consolas, monospace;
+      font-family: -apple-system, BlinkMacSystemFont, "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
     }
     .font-sans {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
     }
     @keyframes pulse-dot {
       0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.4; transform: scale(0.85); }
+      50% { opacity: 0.35; transform: scale(0.85); }
     }
     @keyframes cursor-blink {
       0%, 49% { opacity: 1; }
       50%, 100% { opacity: 0; }
     }
     .status-dot {
-      animation: pulse-dot 2.5s ease-in-out infinite;
+      animation: pulse-dot 2.6s ease-in-out infinite;
       transform-origin: 32px 25px;
     }
     .cursor {
@@ -62,7 +62,7 @@
   <rect x="2" y="2" width="896" height="326" rx="12" fill="url(#grid)" opacity="0.75" />
 
   <!-- Top Decorative Accent Bar -->
-  <rect x="30" y="0" width="840" height="2" fill="url(#accentGradient)" opacity="0.8" />
+  <rect x="30" y="0" width="840" height="2" fill="url(#accentGradient)" opacity="0.85" />
 
   <!-- Terminal Top Bar -->
   <g transform="translate(0, 0)">
@@ -71,36 +71,36 @@
     
     <!-- System Status Indicator -->
     <circle class="status-dot" cx="32" cy="25" r="4.5" fill="#2DD4BF" />
-    <circle cx="32" cy="25" r="7" fill="none" stroke="#2DD4BF" stroke-width="0.8" opacity="0.4" />
+    <circle cx="32" cy="25" r="7" fill="none" stroke="#2DD4BF" stroke-width="0.8" opacity="0.35" />
     
-    <text x="48" y="29" fill="#2DD4BF" font-size="11" font-weight="600" class="font-mono" letter-spacing="1">SYSTEM OPERATIONAL</text>
+    <text x="48" y="29" fill="#2DD4BF" font-size="11" font-weight="600" class="font-mono" letter-spacing="1">DEVELOPER STATION</text>
     <text x="195" y="29" fill="#5A6E82" font-size="11" class="font-mono">//</text>
-    <text x="212" y="29" fill="#8B98A5" font-size="11" class="font-mono">NODE: IN-WEST-1</text>
+    <text x="212" y="29" fill="#8B98A5" font-size="11" class="font-mono">ACTIVE ENVIRONMENT</text>
     
-    <!-- Coordinates / University Badge -->
+    <!-- University Academic Badge -->
     <rect x="620" y="14" width="250" height="22" rx="4" fill="#141C24" stroke="#233240" stroke-width="0.8" />
-    <text x="632" y="29" fill="#58A6FF" font-size="10.5" font-weight="600" class="font-mono" letter-spacing="0.5">CHARUSAT :: B.TECH CE [YR 3]</text>
+    <text x="635" y="29" fill="#58A6FF" font-size="10.5" font-weight="600" class="font-mono" letter-spacing="0.5">CHARUSAT :: B.TECH CE [YR 3]</text>
   </g>
 
   <!-- Left Column: Identity & Branding -->
   <g transform="translate(36, 75)">
-    <!-- Small Tag -->
-    <text x="0" y="18" fill="#58A6FF" font-size="11.5" font-weight="600" class="font-mono" letter-spacing="2">DEVELOPER PORTFOLIO</text>
+    <!-- Subtitle Category Tag -->
+    <text x="0" y="18" fill="#58A6FF" font-size="11.5" font-weight="600" class="font-mono" letter-spacing="2">PORTFOLIO // OVERVIEW</text>
     
     <!-- Main Name -->
     <text x="0" y="62" fill="#E6EDF3" font-size="38" font-weight="800" class="font-sans" letter-spacing="-0.5">Om Mistry</text>
     
     <!-- Role & Positioning -->
     <text x="0" y="92" fill="#8B98A5" font-size="14.5" font-weight="500" class="font-sans">
-      Computer Engineering Student · Full-Stack · AI/ML
+      Computer Engineering Student · Full-Stack Developer · AI/ML Explorer
     </text>
 
     <!-- Bio Summary -->
-    <text x="0" y="122" fill="#768493" font-size="12.5" class="font-sans">
-      Engineering practical web applications, multilingual NLP models,
+    <text x="0" y="122" fill="#768493" font-size="13" class="font-sans">
+      Building practical software across full-stack development and AI/ML,
     </text>
-    <text x="0" y="140" fill="#768493" font-size="12.5" class="font-sans">
-      and maritime intelligence systems from database to user interface.
+    <text x="0" y="141" fill="#768493" font-size="13" class="font-sans">
+      with a growing focus on NLP, data systems, and real-world architectures.
     </text>
 
     <!-- Status Badges -->
@@ -122,7 +122,7 @@
     </g>
   </g>
 
-  <!-- Right Column: Interactive-looking Terminal Screen -->
+  <!-- Right Column: Interactive Developer Terminal Screen -->
   <g transform="translate(470, 70)">
     <!-- Terminal Box -->
     <rect width="398" height="225" rx="8" fill="url(#panelGradient)" stroke="#1F2A35" stroke-width="1" />
@@ -152,8 +152,8 @@
       <!-- Line 2: focus -->
       <text x="0" y="44" fill="#58A6FF" font-size="12" font-weight="600" class="font-mono">$</text>
       <text x="14" y="44" fill="#E6EDF3" font-size="12" class="font-mono">cat /etc/focus</text>
-      <text x="0" y="62" fill="#2DD4BF" font-size="11.5" class="font-mono">&#8594; Web Apps (React · Next.js · Node · Postgres)</text>
-      <text x="0" y="79" fill="#2DD4BF" font-size="11.5" class="font-mono">&#8594; AI/ML &amp; NLP (Multilingual QA · SLMs)</text>
+      <text x="0" y="62" fill="#2DD4BF" font-size="11.5" class="font-mono">&#8594; Full-Stack (React · Next.js · Node · PostgreSQL)</text>
+      <text x="0" y="79" fill="#2DD4BF" font-size="11.5" class="font-mono">&#8594; AI/ML &amp; NLP (Multilingual QA · SLMs · Search)</text>
 
       <!-- Line 3: flagship systems -->
       <text x="0" y="105" fill="#58A6FF" font-size="12" font-weight="600" class="font-mono">$</text>
@@ -173,8 +173,8 @@
     <circle cx="4" cy="0" r="2.5" fill="#58A6FF" />
     <text x="14" y="3" fill="#506173" font-size="10" class="font-mono" letter-spacing="0.5">GUJARAT, INDIA</text>
     <text x="120" y="3" fill="#324354" font-size="10" class="font-mono">|</text>
-    <text x="135" y="3" fill="#506173" font-size="10" class="font-mono" letter-spacing="0.5">LATENCY: 18ms</text>
-    <text x="235" y="3" fill="#324354" font-size="10" class="font-mono">|</text>
-    <text x="250" y="3" fill="#506173" font-size="10" class="font-mono" letter-spacing="0.5">STACK: TYPESCRIPT · PYTHON · POSTGRES</text>
+    <text x="135" y="3" fill="#506173" font-size="10" class="font-mono" letter-spacing="0.5">CHARUSAT · 3RD YEAR CE</text>
+    <text x="290" y="3" fill="#324354" font-size="10" class="font-mono">|</text>
+    <text x="305" y="3" fill="#506173" font-size="10" class="font-mono" letter-spacing="0.5">STACK: TYPESCRIPT · PYTHON · POSTGRESQL</text>
   </g>
 </svg>

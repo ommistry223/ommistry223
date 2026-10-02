@@ -13,7 +13,7 @@
 
   <style>
     .mono {
-      font-family: -apple-system, BlinkMacSystemFont, "JetBrains Mono", "Fira Code", monospace;
+      font-family: -apple-system, BlinkMacSystemFont, "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
     }
     @keyframes term-blink {
       0%, 49% { opacity: 1; }
@@ -38,7 +38,7 @@
   <circle cx="52" cy="17" r="4.5" fill="#61C554" />
 
   <!-- Window Title -->
-  <text x="430" y="21" text-anchor="middle" fill="#7A8B9C" font-size="11.5" font-weight="500" class="mono">ommistry@workstation: ~/telemetry/status.json</text>
+  <text x="430" y="21" text-anchor="middle" fill="#7A8B9C" font-size="11.5" font-weight="500" class="mono">ommistry@workstation: ~/developer/status.json</text>
 
   <!-- Shell Prompt -->
   <g transform="translate(24, 60)">
@@ -58,7 +58,7 @@
     <text x="115" y="20" fill="#A5D6FF">"Om Mistry"</text>
     <text x="200" y="20" fill="#8B98A5">,</text>
 
-    <!-- role -->
+    <!-- academic -->
     <text x="20" y="38" fill="#7EE787">"academic"</text>
     <text x="100" y="38" fill="#8B98A5">:</text>
     <text x="115" y="38" fill="#A5D6FF">"3rd Year B.Tech in Computer Engineering @ CHARUSAT"</text>
@@ -72,8 +72,8 @@
     <text x="300" y="56" fill="#8B98A5">, </text>
     <text x="315" y="56" fill="#FFA657">"Applied AI/ML &amp; NLP"</text>
     <text x="475" y="56" fill="#8B98A5">, </text>
-    <text x="490" y="56" fill="#FFA657">"Data Engineering"</text>
-    <text x="635" y="56" fill="#8B98A5">],</text>
+    <text x="490" y="56" fill="#FFA657">"Data Systems"</text>
+    <text x="605" y="56" fill="#8B98A5">],</text>
 
     <!-- core_stack -->
     <text x="20" y="76" fill="#7EE787">"core_stack"</text>

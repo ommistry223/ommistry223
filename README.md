@@ -16,19 +16,19 @@
     <img src="https://img.shields.io/badge/GitHub-ommistry223-0F1418?style=flat-square&logo=github&logoColor=E6EDF3&labelColor=090D10&color=58A6FF" alt="GitHub Profile" />
   </a>
   <a href="https://github.com/ommistry223?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-Public-0F1418?style=flat-square&logo=git&logoColor=F05032&labelColor=090D10&color=2DD4BF" alt="Repositories" />
+    <img src="https://img.shields.io/badge/Repositories-Public-0F1418?style=flat-square&logo=git&logoColor=F05032&labelColor=090D10&color=2DD4BF" alt="Public Repositories" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=ommistry223&style=flat-square&color=58A6FF&label=Profile+Views" alt="Profile Views" />
 </p>
 
 <!-- Quick Navigation Bar -->
 <p align="center">
   <code><a href="#about-me">ABOUT</a></code> &nbsp;·&nbsp;
-  <code><a href="#engineering-snapshot">SNAPSHOT</a></code> &nbsp;·&nbsp;
   <code><a href="#featured-projects">PROJECTS</a></code> &nbsp;·&nbsp;
+  <code><a href="#engineering-snapshot">SNAPSHOT</a></code> &nbsp;·&nbsp;
   <code><a href="#tech-stack">TECH STACK</a></code> &nbsp;·&nbsp;
   <code><a href="#developer-telemetry">TELEMETRY</a></code> &nbsp;·&nbsp;
   <code><a href="#github-activity">ACTIVITY</a></code> &nbsp;·&nbsp;
+  <code><a href="#outside-the-code">HUMAN</a></code> &nbsp;·&nbsp;
   <code><a href="#lets-connect">CONNECT</a></code>
 </p>
 
@@ -77,92 +77,75 @@ My engineering work centers on building complete systems end-to-end: designing r
 
 ---
 
-<a id="engineering-snapshot"></a>
-## 📐 Engineering Snapshot
-
-A structured overview of core proficiencies across the application lifecycle:
-
-```text
-┌─────────────────────────┬─────────────────────────────────────────────────────────────┐
-│ LAYER                   │ TECHNOLOGIES & COMPETENCIES                                 │
-├─────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ Frontend Engineering    │ React · Next.js · TypeScript · Tailwind CSS · Vite · HTML5  │
-│ Backend Architecture    │ Node.js · Express · RESTful APIs · JWT Auth · Middleware    │
-│ Databases & Storage     │ PostgreSQL · MySQL · Supabase · Prisma ORM · SQL Indexing   │
-│ AI / ML & NLP           │ Python · scikit-learn · Sentence-Transformers · SLMs · NLP  │
-│ Systems & Languages     │ C · C++ · Java · Python · JavaScript · TypeScript · SQL     │
-│ Tooling & Platforms     │ Git · GitHub · Docker · Linux/Bash · Vercel · Netlify       │
-└─────────────────────────┴─────────────────────────────────────────────────────────────┘
-```
-
----
-
 <a id="featured-projects"></a>
 ## 🚀 Featured Projects
 
 Deep-dive showcase of systems built to solve real-world problems.
 
-### 1. ⚓ PortFlow SBX — Maritime Operational Intelligence Platform
+### 01 — ⚓ PortFlow SBX · Maritime Operational Intelligence Platform
 > **Real-time AIS vessel telemetry, geospatial congestion intelligence, and operational decision support.**
 
 <p align="center">
-  <img src="assets/projects/portflow.svg" width="100%" alt="PortFlow SBX Architecture Diagram" />
+  <img src="assets/projects/portflow.svg" width="100%" alt="PortFlow SBX Maritime Intelligence Architecture Diagram" />
 </p>
 
-- **Problem**: Maritime ports and terminal operators face unpredictable vessel queues, costly anchorage delays, and fragmented situational awareness during peak shipping windows.
-- **Architecture & Implementation**:
-  - **Live AIS Telemetry Ingestion**: Ingests vessel spatial streams including MMSI identifiers, Speed Over Ground (SOG), Course Over Ground (COG), and dynamic geographic coordinates.
-  - **Spatial Congestion Indexer**: Uses **PostgreSQL** with spatial queries to detect anchorage clustering, calculate turnaround times, and compute real-time port congestion scores.
-  - **Scenario & Routing Simulation**: Evaluates berth wait queues and models ETA disruptions to provide actionable operational recommendations.
-  - **Command Center Dashboard**: Responsive map-based operational interface with vessel drill-downs, live telemetry filtering, and alert thresholds.
-- **Tech Stack**: `React` · `Next.js` · `PostgreSQL` · `Node.js` · `Tailwind CSS` · `Geospatial Maps`
+- **What It Is**: A maritime intelligence platform that processes real-time AIS vessel telemetry to calculate port congestion indexes, track anchorage queues, and simulate operational arrival scenarios.
+- **Why I Built It**: Maritime terminal operators frequently face unpredictable vessel queues, costly anchorage delays, and fragmented situational awareness during peak shipping congestion.
+- **What I Worked With**: `PostgreSQL` · `React` · `Next.js` · `Node.js` · `Tailwind CSS` · `Geospatial Maps` · `AIS Telemetry`
+- **Technical Highlights**:
+  - Ingests streaming vessel spatial attributes including MMSI, Speed Over Ground (SOG), Course Over Ground (COG), and geographic coordinates.
+  - Implements spatial clustering in **PostgreSQL** to identify anchorage congestion clusters and calculate vessel turnaround wait times.
+  - Generates predictive berth allocation and ETA disruption analysis to provide actionable dispatch decisions.
+  - Interactive map-based command center with live vessel telemetry drill-downs and operational thresholds.
 
 ---
 
-### 2. 🌍 IndicQA — Multilingual & Code-Mixed SLM Question Answering
+### 02 — 🌍 IndicQA · Multilingual & Code-Mixed SLM Question Answering
 > **Resource-efficient domain question-answering across 11 Indic languages and code-mixed conversations.**
 
 <p align="center">
-  <img src="assets/projects/indicqa.svg" width="100%" alt="IndicQA Multilingual NLP Architecture" />
+  <img src="assets/projects/indicqa.svg" width="100%" alt="IndicQA Multilingual NLP Architecture Diagram" />
 </p>
 
-- **Problem**: Mainstream large language models often struggle with informal code-mixed text (such as Hinglish and Gujlish) and carry high deployment latency and prohibitive compute costs for domain-specific queries.
-- **Architecture & Implementation**:
-  - **Multilingual Tokenization & Preprocessing**: Handles script transliteration, normalization, and sub-word tokenization across 11 Indic languages and mixed-script inputs.
-  - **Cross-Lingual Dense Retrieval**: Utilizes `Sentence-Transformers` to generate semantic embeddings within a shared vector space, mapping code-mixed user queries to relevant domain passages.
-  - **Small Language Model (SLM) Inference**: Employs fine-tuned, parameter-efficient models to generate accurate, grounded responses without demanding multi-GPU cloud infrastructure.
-  - **Low-Latency Edge Deployment**: Optimized for fast inference cycles on commodity hardware.
-- **Tech Stack**: `Python` · `Sentence-Transformers` · `NLP` · `SLMs` · `scikit-learn` · `Semantic Search`
+- **What It Is**: A multilingual question-answering pipeline designed to process inquiries across 11 Indic languages and informal code-mixed conversations (such as Hindi-English and Gujarati-English).
+- **Why I Built It**: Mainstream large language models often struggle with informal code-mixed vernacular, while carrying prohibitive deployment latency and compute costs for domain-specific tasks.
+- **What I Worked With**: `Python` · `Sentence-Transformers` · `NLP` · `SLMs` · `scikit-learn` · `Semantic Search`
+- **Technical Highlights**:
+  - Handles sub-word tokenization and script normalization across 11 Indic languages and mixed-script text.
+  - Uses `Sentence-Transformers` to map multilingual queries into a unified dense embedding space for semantic retrieval.
+  - Fine-tuned, parameter-efficient Small Language Models (SLMs) produce grounded, domain-specific responses with low resource overhead.
+  - Optimized for low-latency inference on standard consumer and server hardware without requiring large cloud GPU clusters.
 
 ---
 
-### 3. 💳 CreditFlow Pro (B2B) — Enterprise Cash-Flow & Credit Risk Suite
+### 03 — 💳 CreditFlow Pro · Enterprise Cash-Flow & Credit Risk Suite
 > **B2B financial workflow management platform with Tally XML ledger import, credit risk scoring, and invoice tracking.**
 
 <p align="center">
-  <img src="assets/projects/creditflow.svg" width="100%" alt="CreditFlow Pro Architecture Diagram" />
+  <img src="assets/projects/creditflow.svg" width="100%" alt="CreditFlow Pro B2B Financial Architecture Diagram" />
 </p>
 
 <p align="left">
   <a href="https://github.com/ommistry223/B2B">
-    <img src="https://img.shields.io/badge/Repository-ommistry223%2FB2B-0F1418?style=flat-square&logo=github&logoColor=white&labelColor=090D10&color=58A6FF" alt="CreditFlow Repository" />
+    <img src="https://img.shields.io/badge/Repository-ommistry223%2FB2B-0F1418?style=flat-square&logo=github&logoColor=white&labelColor=090D10&color=58A6FF" alt="CreditFlow Pro Repository" />
   </a>
   <a href="https://bto-b.netlify.app">
-    <img src="https://img.shields.io/badge/Live%20Demo-bto--b.netlify.app-0F1418?style=flat-square&logo=netlify&logoColor=00C7B7&labelColor=090D10&color=2DD4BF" alt="CreditFlow Live Demo" />
+    <img src="https://img.shields.io/badge/Live%20Demo-bto--b.netlify.app-0F1418?style=flat-square&logo=netlify&logoColor=00C7B7&labelColor=090D10&color=2DD4BF" alt="CreditFlow Pro Live Demo" />
   </a>
 </p>
 
-- **Problem**: Small and medium B2B enterprises frequently face cash-flow bottlenecks due to unmonitored credit terms, delayed client follow-ups, and accounting software silos.
-- **Architecture & Implementation**:
-  - **Tally XML Parser Pipeline**: Extracts and normalizes customer balances, vouchers, and invoice details from traditional accounting exports into structured database records.
-  - **Relational Ledger & RBAC**: Built on **PostgreSQL** and **Express/Node.js**, enforcing role-based permissions, multi-currency invoicing, and payment reconciliation.
-  - **Receivables Aging Analysis**: Categorizes receivables into aging buckets (0–30, 31–60, 61–90+ days) and scores customer credit risk dynamically.
-  - **Interactive Analytics UI**: Fast, responsive React + Vite interface with real-time payment drill-down and cash-flow visualizations.
-- **Tech Stack**: `React` · `Vite` · `Tailwind CSS` · `Node.js` · `Express` · `PostgreSQL`
+- **What It Is**: A B2B financial operations platform that consolidates invoice lifecycles, automated receivables aging, customer credit risk monitoring, and payment reconciliation.
+- **Why I Built It**: Small and medium businesses struggle with cash flow visibility due to unmonitored credit terms, manual invoice follow-ups, and disconnected accounting exports.
+- **What I Worked With**: `React` · `Vite` · `Tailwind CSS` · `Node.js` · `Express` · `PostgreSQL`
+- **Technical Highlights**:
+  - Ingestion pipeline parsing legacy Tally XML accounting data directly into structured relational schemas.
+  - Relational database schema on **PostgreSQL** enforcing role-based permissions, multi-currency accounting, and transactional integrity.
+  - Dynamic aging analysis bucketed into 0–30, 31–60, and 61–90+ day overdue thresholds with automated payment reminders.
+  - Fast, modular React + Vite interface with real-time payment drill-down and cash-flow trend charts.
 
 ---
 
-### 4. 📊 TRACKIFY — Full-Stack Expense Management & Financial Intelligence
+### 04 — 📊 TRACKIFY · Full-Stack Expense Management & Financial Intelligence
 > **Personal finance tracking platform built with Next.js, Prisma ORM, NextAuth, and dynamic analytics.**
 
 <p align="left">
@@ -171,16 +154,17 @@ Deep-dive showcase of systems built to solve real-world problems.
   </a>
 </p>
 
-- **Core Capabilities**:
+- **What It Is**: A full-stack personal finance application providing multi-category budgeting, recurring expense tracking, and spending visualizations.
+- **What I Worked With**: `Next.js` · `React` · `TypeScript` · `Prisma` · `NextAuth` · `Tailwind CSS`
+- **Technical Highlights**:
   - End-to-end type safety across client and server with **TypeScript** and **Next.js App Router**.
-  - Relational database schema with **Prisma ORM** managing users, categorized expenses, and recurring budgets.
-  - Secure authentication and protected API endpoints via **NextAuth**.
-  - Visual breakdown of financial health using interactive chart components and categorized transaction summaries.
-- **Tech Stack**: `Next.js` · `React` · `TypeScript` · `Prisma` · `NextAuth` · `Tailwind CSS`
+  - Relational schema managed via **Prisma ORM** modeling users, recurring budgets, and transaction categories.
+  - Secure authentication and protected API routes utilizing **NextAuth**.
+  - Interactive financial analytics with responsive visual breakdowns of monthly spending patterns.
 
 ---
 
-### 5. 🧱 Core Systems & Engineering Repositories
+### 05 — 🧱 Supporting Systems & Practical Repositories
 
 <table>
 <tr>
@@ -219,6 +203,26 @@ Implementation of core computing concepts, OOP principles, exception architectur
 </td>
 </tr>
 </table>
+
+---
+
+<a id="engineering-snapshot"></a>
+## 📐 Engineering Snapshot
+
+A structured overview of core proficiencies across the application lifecycle:
+
+```text
+┌─────────────────────────┬─────────────────────────────────────────────────────────────┐
+│ LAYER                   │ TECHNOLOGIES & COMPETENCIES                                 │
+├─────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ Frontend Engineering    │ React · Next.js · TypeScript · Tailwind CSS · Vite · HTML5  │
+│ Backend Architecture    │ Node.js · Express · RESTful APIs · JWT Auth · Middleware    │
+│ Databases & Storage     │ PostgreSQL · MySQL · Supabase · Prisma ORM · SQL Indexing   │
+│ AI / ML & NLP           │ Python · scikit-learn · Sentence-Transformers · SLMs · NLP  │
+│ Systems & Languages     │ C · C++ · Java · Python · JavaScript · TypeScript · SQL     │
+│ Tooling & Platforms     │ Git · GitHub · Docker · Linux/Bash · Vercel · Netlify       │
+└─────────────────────────┴─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -297,19 +301,19 @@ Telemetry monitoring public repository contributions, language distributions, an
 
 <div align="center">
 
-<!-- GitHub Stats & Top Languages -->
+<!-- Primary Visual: GitHub Activity Graph -->
+<a href="https://github.com/ommistry223">
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=ommistry223&bg_color=090D10&color=8B98A5&line=58A6FF&point=2DD4BF&area=true&hide_border=true" alt="GitHub Activity Graph" />
+</a>
+
+<br/><br/>
+
+<!-- Supporting Stats: Overview & Top Languages -->
 <a href="https://github.com/ommistry223">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ommistry223&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&bg_color=090D10&title_color=58A6FF&icon_color=58A6FF&text_color=E6EDF3" alt="GitHub Stats" />
 </a>
 <a href="https://github.com/ommistry223">
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ommistry223&layout=compact&hide_border=true&langs_count=8&bg_color=090D10&title_color=58A6FF&text_color=E6EDF3" alt="Top Languages" />
-</a>
-
-<br/><br/>
-
-<!-- GitHub Activity Graph -->
-<a href="https://github.com/ommistry223">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=ommistry223&bg_color=090D10&color=8B98A5&line=58A6FF&point=2DD4BF&area=true&hide_border=true" alt="GitHub Activity Graph" />
 </a>
 
 <br/><br/>
@@ -321,10 +325,17 @@ Telemetry monitoring public repository contributions, language distributions, an
 
 ---
 
+<a id="outside-the-code"></a>
+## 💡 Outside the Code
+
+Outside of writing software and studying computer engineering, I enjoy exploring emerging engineering tools, building functional side projects, reading technical books and system architecture post-mortems, practicing algorithmic problem-solving, and continuously refining my software craftsmanship.
+
+---
+
 <a id="lets-connect"></a>
 ## 🤝 Let's Connect
 
-I am always interested in discussing software engineering challenges, collaborating on interesting technical projects, and exploring applied AI/ML applications.
+I am always interested in discussing software engineering challenges, collaborating on technical projects, and exploring applied AI/ML applications.
 
 <div align="center">
 
